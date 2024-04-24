@@ -81,7 +81,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="container min-w-screen md mx-auto my-6 max-w-screen-lg rounded-xl bg-violet-200 p-5 min-h-[80vh] md w-1/2">
+      <div className="container min-w-screen md mx-auto my-6 max-w-screen-lg rounded-xl bg-violet-200 p-5 min-h-[80vh] md w-[60%]">
         <h1 className="font-bold text-center text-xl">TaskMaster - your todo manager</h1>
         <div className="add-todo flex flex-col gap-1">
           <h2 className="text-lg font-bold">Add a todo</h2>
@@ -149,5 +149,5 @@ function App() {
 }
 
 export default App;
-//sum of two numbers javascript
+
 
